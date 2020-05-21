@@ -1,0 +1,86 @@
+.summaryTable {
+    width: 100%;
+    margin: 10px 0;
+    background: #eee;
+
+    .headerRow {
+        width: 100%;
+        padding: 15px 0;
+        font-size: 14px;
+        font-weight: bold;
+        background: #555;
+        color: #fff;
+        .columnHeader {
+            display: inline-block;
+            padding: 0 10px;
+        };
+        .noHeader {
+            width: calc(5% - 20px);
+        }
+        .country {
+            width: calc(29% - 20px);
+        };
+        .totalCases {
+            width: calc(10% - 20px);
+        };
+        .totalDeaths {
+            width: calc(10% - 20px);
+        };
+        .totalRecovered {
+            width: calc(10% - 20px);
+        };
+        .infectionRate {
+            width: calc(20% - 20px);
+        };
+        .deathRate {
+            width: calc(16% - 20px);
+        };
+    };
+
+    .tableBody {
+        width: 100%;
+        height: calc(100vh - 519px);
+        overflow-y: scroll;
+        .bodyRow {
+            padding: 6px 0;
+            font-size: 14px;
+            background: #eee;
+            border-bottom: 1px solid #fff;
+            transition: background 0.2s ease;
+            &:hover {
+                cursor: pointer;
+                background: #ddd;
+            };
+            .cell {
+                display: inline-block;
+                padding: 0 10px;
+            };
+            .countryFlagImageWrapper {
+                width: calc(5% - 20px);
+                .countryFlagImage {
+                    vertical-align: middle;
+                };
+            };
+            .country {
+                width: calc(29% - 20px);
+            };
+            .totalCases {
+                width: calc(10% - 20px);
+            };
+            .totalDeaths {
+                width: calc(10% - 20px);
+            };
+            .totalRecovered {
+                width: calc(10% - 20px);
+            };
+            .infectionRate {
+                width: calc(20% - 20px);
+                text-align: center;
+            };
+            .deathRate {
+                width: calc(16% - 20px);
+                text-align: center;
+            };
+        };
+    };
+};

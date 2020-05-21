@@ -1,0 +1,32 @@
+.chartContainer {
+    width: calc(100% - 25px);
+    margin: 10px 0;
+    height: 400px;
+    padding: 30px 25px 10px 0;
+    background: #eee;
+}
+
+.emptyChartContainer {
+    background: #eee;
+    height: 400px;
+    text-align: center;
+    span {
+        position: relative;
+        display: block;
+        top: 42%;
+        font-size: 13.5px;
+    };
+}
+
+.recharts-cartesian-axis-tick {
+    .recharts-text {
+        font-size: 12.5px;
+    };
+}
+
+.recharts-legend-wrapper {
+    bottom: 0 !important;
+    .recharts-legend-item-text {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,30 @@
+.wrapper {
+    position: absolute;
+    display: inline-block;
+    width: 570px;
+    padding: 30px;
+    background-color: #eee;
+    margin: 280px 20px auto;
+    font-size: 13.5px;
+    text-align: center;
+    .countryOverview {
+        text-align: left;
+        font-size: 13.5px;
+        .countryName {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #7d3cff;
+            color: #fff;
+        }
+        .countryDeathRate {
+            display: inline-block;
+            padding: 7px 16px;
+            background-color: #fff;
+            border: 1px solid #7d3cff;
+            color: #7d3cff;
+        }
+    }
+    .derivedStats {
+        margin-top: 15px;
+    }
+}

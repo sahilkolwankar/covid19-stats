@@ -8,21 +8,39 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.9.1",
+    "@types/lodash": "^4.14.149",
     "@types/node": "^12.12.35",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
+    "@types/react-modal": "^3.10.5",
     "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.5",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "node-sass": "^4.13.1",
     "react": "^16.13.1",
+    "react-charts": "^2.0.0-beta.6",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
     "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "recharts": "^1.8.5",
+    "shelljs": "^0.8.3",
+    "sqlite3": "^4.1.1",
     "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js localhost 8080"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,5 +56,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:8080"
 }
